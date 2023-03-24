@@ -18,13 +18,9 @@ int main(void)
 	year = 2000;
 
 	printf("Date: %02d/%02d/%04d\n", month, day, year);
-	if (month == 1)
-		printf("Day of the year: %d\n", day);
-	else
-	{
-		day = convert_day(month, day);
-		printf("Day of the year: %d\n", day);
-	}
+
+	day = convert_day(month, day);
+
 	print_remaining_days(month, day, year);
 
 	return (0);
