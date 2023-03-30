@@ -1,5 +1,4 @@
 #include "main.h"
-sh: 1: q: not found
 /**
  * _strcat - function that concatenates two strings
  *@dest: par1
